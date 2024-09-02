@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stellar Web</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload image
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      
+        <a href="#" class="logo"><img src="./assets/images/logo.png" alt="logo"></a>
+      
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#contact-us" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="#contact-us"><button class="btn btn-secondary">Get Started</button></a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="804" height="643" loading="lazy" alt="hero banner"
+              class="w-100">
+          </figure>
+
+          <div class="hero-content">
+
+            <h2 class="h1 hero-title">Small Business Web Design + Development</h2>
+
+            <p class="section-text">
+              Fully hand-coded websites, delivering exceptional quality from just $150/month. No page builders, no WordPress—just pure custom craftsmanship.
+            </p>
+
+
+            <ul class="hero-list">
+
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+
+                <span class="span">Live Support</span>
+              </li>
+
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+
+                <span class="span">Web design</span>
+              </li>
+
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+
+                <span class="span">Web development</span>
+              </li>
+
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+
+                <span class="span">Unlimited edits</span>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our Solutions For You</h2>
+
+          <p class="section-text">
+            At Stellar WEB, we craft visually stunning and highly functional websites that elevate your brand and engage your audience.
+          </p>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-1.gif" width="728" height="344" loading="lazy" alt="support"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Web Design</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful and user-friendly designs that reflect your brand and deliver a memorable user experience.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-2.gif" width="728" height="344" loading="lazy" alt="Engagement"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Web Development</a>
+                  </h3>
+
+                  <p class="card-text">
+                    We build robust, scalable websites that turn your vision into a seamless digital platform.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-3.gif" width="728" height="344" loading="lazy" alt="Marketing"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Web Maintenance</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Ongoing maintenance, updates, and security to keep your site running at its best.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- <h2 class="h2 section-title">What We Do</h2> -->
+
+
+     <section class="section portfolio" id="portfolio">
+       <h2 class="h2 section-title">Our Portfolio</h2>
+      <div class="container con-pr">
+        <div class="project-group">
+          <div class="project">
+            <img  src="./assets/images/manage.png" alt="">
+            <h3>Manage SMMA agency</h3>
+            <h4>Seattle</h4>
+            <p>Manage SMMA is a cutting-edge social media marketing agency specializing in helping businesses elevate their online presence.</p>
+            <a href="https://boisterous-monstera-6c4156.netlify.app/" target="_blank"><button class="button-solid"  type="button">
+              VISIT Manage
+            </button></a>
+          </div>
+
+          <div class="project">
+            <img  src="./assets/images/byte-bistro2.png" alt="">
+            <h3>Byte Bistro</h3>
+            <h4>New York</h4>
+            <p>Byte Bistro is a modern fusion restaurant where technology meets culinary excellence. Offering a unique dining experience</p>
+            <a href="https://byte-bistro.netlify.app/" target="_blank"><button class="button-solid"  type="button">
+              VISIT ByteBistro
+            </button></a>
+          </div>
+
+          <div class="project">
+            <img  src="./assets/images/code-points.png" alt="">
+            <h3>Code Points</h3>
+            <h4>Berlin</h4>
+            <p>Code Points is a premier web development agency dedicated to transforming ideas into powerful digital solutions</p>
+            <a href="https://code-points.netlify.app/" target="_blank"><button class="button-solid"  type="button">
+              VISIT Code Points
+            </button></a>
+          </div>
+
+          <div class="project">
+            <img  src="./assets/images/dtravel.png" alt="">
+            <h3>D-Travel</h3>
+            <h4>Remote</h4>
+            <p>D-Travel is an online travel agency that is dedicated to find solutions for travel opportunities</p>
+            <a href="https://d-travel.netlify.app/" target="_blank"><button class="button-solid"  type="button">
+              VISIT D-travel
+            </button></a>
+          </div>
+        </div>
+      </div>
+     </section>
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="section about" id="about">
+        <div class="container about-con">
+          <h3>About Us</h3>
+          <div class="con-ab">
+            <div class="leftcon">
+              <img src="./assets/images/logo.png" alt="logo">
+            </div>
+            <div class="rightcon">
+              <p>Welcome to Stellar Web! We're a team of passionate creators dedicated to bringing
+                 your unique vision to life. 
+                 Our journey began with a love for web design and a desire to help businesses shine online.
+                  We pride ourselves on building strong relationships and delivering solutions that
+                   truly resonate with our clients. Let’s collaborate and make something amazing together!
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="section stats">
+        <div class="container">
+
+          <figure class="stats-banner">
+            <img src="./assets/images/stats-banner.png" width="619" height="482" loading="lazy" alt="stats"
+              class="w-100">
+          </figure>
+
+          <ul class="stats-list">
+
+            <li class="stats-item purple">
+              <h3 class="item-title">
+                20
+                <span class="span">+</span>
+              </h3>
+
+              <p class="stats-text">Web projects</p>
+            </li>
+
+            <li class="stats-item red">
+              <h3 class="item-title">
+                250
+                <span class="span">percent</span>
+              </h3>
+
+              <p class="stats-text">Leads generated</p>
+            </li>
+
+            <li class="stats-item green">
+              <h3 class="item-title">
+                170
+                <span class="span">percent</span>
+              </h3>
+
+              <p class="stats-text">average ROI</p>
+            </li>
+
+            <li class="stats-item yellow">
+              <h3 class="item-title">
+                250
+                <span class="span">percent</span>
+              </h3>
+
+              <p class="stats-text">Sells generated</p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container t-con">
+          <h3>Partners</h3>
+          <div class="timg">
+            <a href="#"><img src="https://boisterous-monstera-6c4156.netlify.app/img/logo.svg" alt=""></a>
+            <a href="#"><img src="https://byte-bistro.netlify.app/images/logo-nobg.png" alt=""></a>
+            <a href="#"><img src="https://code-points.netlify.app/images/logo-noBg.png" alt=""></a>
+            <a href="#"><img src="./assets/images/mana.png" alt=""></a>
+            <a href="#"><img src="./assets/images/d-travel-logo.png" alt=""></a>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Feel free to reach out to us through the form below or via the contact details provided.</p>
+        <form action="https://formsubmit.co/info.stellarweb1@gmail.com" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-details">
+            <h3>Our Contact Details</h3>
+            <p>Email: <a href="mailto:info.stellarweb1@gmail.com">info.stellarweb1@gmail.com</a></p>
+        </div>
+    </section>
+  
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+
+          <figure class="footer-img">
+            <img src="./assets/images/logo.png" width="264" height="226" loading="lazy" aria-hidden="true"
+              class="w-100">
+          </figure></a>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Design</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Maitenance</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="#contact-us" class="footer-link">Contact us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+
+    
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-3.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+
+            <span class="span">
+              Mail Us:
+              <a href="mailto:info.stellarweb1@gmail.com" class="footer-item-link">info.stellarweb1@gmail.com</a>
+            </span>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <span class="span">Stellar Web</span>. All rights reserved by <a href="https://dibran13.netlify.app/"
+            class="copyright-link">dkm13</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
